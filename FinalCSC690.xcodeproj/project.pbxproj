@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD57A5A724721C8900092242 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57A5A624721C8900092242 /* Task.swift */; };
 		F2770B052470F8D3009DED35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2770B042470F8D3009DED35 /* AppDelegate.swift */; };
 		F2770B072470F8D3009DED35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2770B062470F8D3009DED35 /* SceneDelegate.swift */; };
 		F2770B092470F8D3009DED35 /* MondayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2770B082470F8D3009DED35 /* MondayController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD57A5A624721C8900092242 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F2770B012470F8D3009DED35 /* FinalCSC690.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalCSC690.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2770B042470F8D3009DED35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2770B062470F8D3009DED35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD57A5A324721BC300092242 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2770B082470F8D3009DED35 /* MondayController.swift */,
+				F2770B36247119D2009DED35 /* TuesdayController.swift */,
+				F2770B38247119EA009DED35 /* WednesdayController.swift */,
+				F2770B3A247119F9009DED35 /* ThursdayController.swift */,
+				F2770B3C24711A04009DED35 /* FridayController.swift */,
+				F2770B3E24711A11009DED35 /* SaturdayController.swift */,
+				F2770B4024711A1B009DED35 /* SundayController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BD57A5A424721C4900092242 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD57A5A624721C8900092242 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD57A5A524721C5700092242 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F2770AF82470F8D3009DED35 = {
 			isa = PBXGroup;
 			children = (
@@ -114,16 +145,12 @@
 		F2770B032470F8D3009DED35 /* FinalCSC690 */ = {
 			isa = PBXGroup;
 			children = (
+				BD57A5A524721C5700092242 /* Views */,
+				BD57A5A424721C4900092242 /* Models */,
+				BD57A5A324721BC300092242 /* Controllers */,
 				F2770B042470F8D3009DED35 /* AppDelegate.swift */,
 				F2770B062470F8D3009DED35 /* SceneDelegate.swift */,
 				F2770B4224711DF9009DED35 /* MainMenu.swift */,
-				F2770B082470F8D3009DED35 /* MondayController.swift */,
-				F2770B36247119D2009DED35 /* TuesdayController.swift */,
-				F2770B38247119EA009DED35 /* WednesdayController.swift */,
-				F2770B3A247119F9009DED35 /* ThursdayController.swift */,
-				F2770B3C24711A04009DED35 /* FridayController.swift */,
-				F2770B3E24711A11009DED35 /* SaturdayController.swift */,
-				F2770B4024711A1B009DED35 /* SundayController.swift */,
 				F2770B0A2470F8D3009DED35 /* Main.storyboard */,
 				F2770B0D2470F8D6009DED35 /* Assets.xcassets */,
 				F2770B0F2470F8D6009DED35 /* LaunchScreen.storyboard */,
@@ -285,6 +312,7 @@
 				F2770B37247119D2009DED35 /* TuesdayController.swift in Sources */,
 				F2770B052470F8D3009DED35 /* AppDelegate.swift in Sources */,
 				F2770B3B247119F9009DED35 /* ThursdayController.swift in Sources */,
+				BD57A5A724721C8900092242 /* Task.swift in Sources */,
 				F2770B3F24711A11009DED35 /* SaturdayController.swift in Sources */,
 				F2770B4324711DF9009DED35 /* MainMenu.swift in Sources */,
 				F2770B4124711A1B009DED35 /* SundayController.swift in Sources */,
